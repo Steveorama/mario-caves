@@ -26,7 +26,9 @@ public class Main {
     
 
     get("/amazing", (request, response) -> {
-    	String temp = "SOME_CONFIG = " + System.getenv("SOME_CONFIG") + "    SOME_OTHER_CONFIG = " + System.getenv("SOME_OTHER_CONFIG");
+    	String temp = "SOME_CONFIG = " + System.getenv("SOME_CONFIG") + "<br><br>" +
+    		"SOME_OTHER_CONFIG = " + System.getenv("SOME_OTHER_CONFIG") + "<br><br>" +
+			"SOME_NEW_CONFIG = " + System.getenv("SOME_NEW_CONFIG");
     	
     	Map<String, Object> attributes = new HashMap<>();
     	attributes.put("message", temp);
