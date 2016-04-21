@@ -8,7 +8,7 @@
 <div text-center">
 	${message}
 	<br><br>
-	Hey look at all the mario portals!!
+	Hey look at all the mario portals!!  So sweet!
 	<br><br>
 	Click <a href="./amazing">here</a> to see something truly amazing
 	<br><br>
