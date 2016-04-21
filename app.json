@@ -1,0 +1,26 @@
+{
+  "name": "mario-portal",
+  "scripts": {
+  },
+  "env": {
+    "SOME_CONFIG": {
+      "required": true
+    },
+    "SOME_OTHER_CONFIG": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/java"
+    }
+  ]
+}
